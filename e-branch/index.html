@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Encrypt Data</title>
+        <link rel="icon" href="../imgs/log.png"> 
+    </head>
+    <body>
+        <style>
+            body{
+                background-image: url(../imgs/Abstract-Techno-Background.jpg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            img.back{
+                bottom: 1%;
+                position: absolute;
+                right: 1%;
+                height: 15%;
+                cursor: pointer;
+            }
+            img.back:hover{
+                height: 15.5%;
+            }
+            input.data{
+                background-color: black;
+                border:solid 4px rgb(28, 110, 148);
+                width: 20%;
+                height: 10%;
+                color: rgb(28, 110, 148);
+                text-indent: 10%;
+                margin-top: 19.8%;
+                margin-left: 38%;
+            }
+            input.data:focus{
+                outline:none;
+            }
+            img.but{
+                height:10%;
+                float:right;
+                margin-top: 19.9%;
+                margin-right: 36%;
+                cursor: pointer;
+            }
+            img.but:hover{
+                height:10.3%;
+            }
+        </style>
+        <a href="../index.html"><img title="Home" class="back" src="../imgs/190711_blue_720x720.png" alt=""></a>
+        <input id="edata" placeholder="Enter Your Data" class="data" type="text">
+        <img class="but" onclick="encrypton()" src="../imgs/lock.png" alt="">
+        <script src="../main.js"></script>
+    </body>
+</html>

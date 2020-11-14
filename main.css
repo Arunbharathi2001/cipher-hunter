@@ -1,0 +1,26 @@
+body{
+    background-image: url(imgs/Abstract-Techno-Background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+img.logy{
+    float: right;
+    margin-right:25% ;
+}
+
+img.logk{
+    float: left;
+    margin-left:25% ;
+}
+
+img{
+    height:40%;
+    margin-top: 13.9%;
+    cursor: pointer;
+}
+
+img:hover{
+    height:40.5%
+    
+}
